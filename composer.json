@@ -1,0 +1,22 @@
+{
+        "name": "atk14/class-autoload",
+        "type": "library",
+        "description": "Class autoloading mechanism used in the ATK14 Framework",
+        "keywords": ["atk14"],
+        "homepage": "https://github.com/atk14/ClassAutoload",
+        "license": ["MIT"],
+        "authors": [
+                {
+                        "name": "ATK14 Development Team",
+                        "homepage": "https://github.com/orgs/atk14/people"
+                }
+        ],
+        "require": {
+                "php": ">=5.3.0"
+        },
+        "require-dev": {
+        },
+        "autoload": {
+                "files": ["src/class_autoload.php"]
+        }
+}
